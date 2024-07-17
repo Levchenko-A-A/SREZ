@@ -1,0 +1,11 @@
+﻿Console.WriteLine("Введите первое число: ");
+int first = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите второе число: ");
+int second = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите третье число: ");
+int third = int.Parse(Console.ReadLine()!);
+int min = int.MaxValue;
+if (first < min) min = first;
+if (second < min) min = second;
+if (third < min) min = third;
+Console.WriteLine($"Минимальное число: {min}");
