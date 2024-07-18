@@ -16,7 +16,7 @@ matrix.PrintMatrix(matrixOne);
 matrix.PrintMatrix(matrixTwo);
 matrix.SumMatrix(matrixOne, matrixTwo);
 
-Console.WriteLine("\nРезультат умножения матриц:");
+Console.WriteLine("\nРезультат умножения матриц:\n");
 try
 {
     matrix.PrintMatrix(Matrix.MulMatrix(matrixOne, matrixTwo));
@@ -25,7 +25,7 @@ catch (Exception e)
 {
     Console.WriteLine(e.Message);
 }
-Console.WriteLine("Транспонированые матрицы:");
+Console.WriteLine("\nТранспонированые матрицы:");
 try
 {
     Console.WriteLine("\nПервая матрица:");
